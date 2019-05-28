@@ -108,8 +108,16 @@ $project = $selectP->fetchAll();
     <section id="about" class="about-mf sect-pt4 route">
         <div class="container">
             <div class="row">
+            <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h3 class="title-a">
+                            About
+                        </h3>
+                        <div class="line-mf"></div>
+                    </div>
+                </div>
                 <div class="col-sm-12">
-                    <div class="box-shadow-full">
+                    <div class="box-shadow-full" data-aos="zoom-in">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="row mt-5 pt-5">
@@ -171,56 +179,56 @@ $project = $selectP->fetchAll();
                     </div>
                 </div>
             </div>
-            <div class="skill-mf">
+            <div class="skill-mf" data-aos="fade-right">
                 <span>HTML</span> <span class="pull-right">70%</span>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="85"
                         aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
-            <div class="skill-mf">
+            <div class="skill-mf" data-aos="fade-right">
                 <span>CSS</span> <span class="pull-right">60%</span>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="85"
                         aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
-            <div class="skill-mf">
+            <div class="skill-mf" data-aos="fade-right">
                 <span>JavaScript</span> <span class="pull-right">40%</span>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="85"
                         aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
-            <div class="skill-mf">
+            <div class="skill-mf" data-aos="fade-right">
                 <span>Bootstrap</span> <span class="pull-right">55%</span>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="85"
                         aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
-            <div class="skill-mf">
+            <div class="skill-mf" data-aos="fade-right">
                 <span>MySQL</span> <span class="pull-right">65%</span>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="85"
                         aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
-            <div class="skill-mf">
+            <div class="skill-mf" data-aos="fade-right">
                 <span>PHP</span> <span class="pull-right">40%</span>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="85"
                         aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
-            <div class="skill-mf">
+            <div class="skill-mf" data-aos="fade-right">
                 <span>PhotoShop</span> <span class="pull-right">40%</span>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="85"
                         aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
             </div>
-            <div class="skill-mf">
+            <div class="skill-mf" data-aos="fade-right">
                 <span>Illustrator</span> <span class="pull-right">45%</span>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="85"
@@ -246,7 +254,7 @@ $project = $selectP->fetchAll();
             </div>
             <div class="row">
                 <?php foreach($project as $project):?>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-left">
                     <div class="service-box">
                         <div class="service-ico">
                             <img src="img/portfolio/<?= $project['img'];?>" alt="<?= $project['title'];?>" class="img-fluid">
@@ -286,8 +294,8 @@ $project = $selectP->fetchAll();
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="contact-mf" data-aos="zoom-in">
-                            <div class="box-shadow-full">
+                        <div class="contact-mf">
+                            <div class="box-shadow-full" data-aos="flip-left">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="title-box-2">
